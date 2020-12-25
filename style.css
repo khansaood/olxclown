@@ -20,6 +20,9 @@ body{
     width: 100%;
     background-image: url(pics/back.PNG);
     height: 252px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 
@@ -52,6 +55,36 @@ body{
         height: 1350px;
     }
 }
+
+@media screen and (max-width:1350px){
+
+    #searchbar{
+        visibility: hidden;
+    }
+
+    #searchbarr{
+        visibility: hidden;
+    }
+
+    #olx{
+        position: absolute;
+        top: 20px;
+        left: 100px;
+       
+    }
+
+
+    #login{
+        margin-right: 450px;
+
+    }
+
+    #sales{
+        margin-right: 450px;
+
+    }
+}
+
 
 
 .twobar{
